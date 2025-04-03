@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const LandingPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header with mobile-responsive powered by text */}
+      {/* Updated Header with mobile responsiveness */}
       <header className="bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 py-3 sm:py-4 flex justify-between items-center">
           <div className="flex flex-col items-start">
@@ -14,7 +14,7 @@ const LandingPage = () => {
               <ScanLine className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
               <span className="font-bold text-lg sm:text-xl text-primary">ConnectMatic</span>
             </div>
-            <span className="text-[10px] sm:text-xs text-gray-500">Powered by A.khafar Solutions</span>
+            <span className="text-xs text-gray-500 hidden sm:block">Powered by A.khafar Solutions</span>
           </div>
           <div className="flex items-center gap-2 sm:gap-4">
             <Link to="/login" className="text-sm sm:text-base text-gray-700 hover:text-primary font-medium">
