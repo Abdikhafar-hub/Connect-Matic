@@ -1,0 +1,6 @@
+
+project_id = "gagzfzcfrezfurwhdbhj"
+
+# Optional: general storage settings
+[storage]
+# file_size_limit = 52428800
